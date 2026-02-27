@@ -1,18 +1,15 @@
 {
-  "name": "key-server",
+  "name": "tool-logic-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Server quản lý key cho tool logic",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "body-parser": "^2.2.2",
-    "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0"
   }
 }
